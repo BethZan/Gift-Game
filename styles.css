@@ -1,0 +1,60 @@
+h1 {
+    text-align: center
+}
+
+p {
+    text-align: center
+}
+
+h1 {
+    color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
+p {
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+.navigation {
+    background-color: crimson
+}
+
+.navigation li {
+   text-align: center;
+    list-style: none;
+    font-size: 400%;
+}
+
+.navigation ul {
+    overflow: auto;
+    padding:15px;
+    margin: 0;
+}
+
+.navigation ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 25px;
+    font-weight: bolder;
+    margin:10px;
+}
+body {
+    margin:0;
+    background-color:blanchedalmond
+}
+
+button {
+    font-size: 50px;
+    background-color: crimson;
+    color:yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    border-color: crimson;
+    border-width: 20;
+    align-items: center;
+    
+}
