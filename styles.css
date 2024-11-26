@@ -58,3 +58,28 @@ button {
     align-items: center;
     
 }
+body {
+    width: 100%;
+    min-height:100vh;
+    background-color:antiquewhite;
+    background-image:url('5756108.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+nav a{
+    text-decoration: none;
+    font-size: 100;
+    color:blueviolet
+}
