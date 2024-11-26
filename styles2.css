@@ -64,7 +64,7 @@ body {
     background-color:antiquewhite;
     background-image:url('5756108.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     color: salmon;
     display: flex;
