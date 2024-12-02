@@ -1,36 +1,48 @@
-<DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles2.css">
-        <title>Happy Christmas</title>
-    </head>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Happy Christmas</title>
+    <style>
+        img {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
     <header>
         <nav class="navigation">
             <ul>
-                <li><a href="#"><b>Starting The Chippies</b></a></1i>
+                <li><a href="#"><b>Starting The Chippies</b></a></li>
             </ul>
         </nav>
     </header>
-   <body>
 
-        <a href="index.html">
-            <button>BACK</button>
-        </a>
-    </body>
+    <a href="index.html">
+        <button>BACK</button>
+    </a>
+
     <p>
-        <a href="Finish.html" alt="fry" width="400" height="400"> 
-        <button2><img src="Screenshot_2024-11-26_at_14.07.56-removebg-preview.png" alt="chippies" width="400" height="400"></button2>
-        
+        <a href="Finish.html">
+            <img src="Screenshot_2024-11-26_at_14.07.56-removebg-preview.png" alt="chippies" width="400" height="400">
         </a>
-
     </p>
+
+    <audio id="sizzle" src="sizzling-frying-pan-201293.mp3"></audio>
+    <button onclick="document.getElementById('sizzle').play()">Click Here</button>
+
     <footer>
-        <audio controls autoplay>
-            <source src="sizzling-frying-pan-201293.mp3">
-        </audio>
     </footer>
-    </html>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('sizzle');
+            audio.play().catch(function(error) {
+                console.log('Autoplay was prevented. This is expected behavior in most browsers.');
+            });
+        });
+    </script>
+</body>
+</html>
